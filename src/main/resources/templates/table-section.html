@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>table section</title>
+    <style>
+        .container{
+            width: 100%;
+            height: 100vh;
+            border: 1px solid black;
+            /* padding: 1rem; */
+            gap: 1rem;
+            display: flex;
+        }
+        .left-side{
+            width: 50%;
+            display: grid;
+            grid-template-columns: repeat(5,1fr);
+            gap: 1rem;
+            padding: 1rem;
+        }
+        .left-side div{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: antiquewhite;
+        }
+        .right-side{
+            width: 50%;
+            padding: 1rem;
+        }
+        .right-side h2{
+            text-align: center;
+        }
+        .right-side .table-state-order{
+            display: flex;
+            justify-content: center;
+            gap: 5rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="left-side">
+            <div>01</div>
+            <div>02</div>
+            <div>03</div>
+            <div>04</div>
+            <div>05</div>
+            <div>06</div>
+            <div>07</div>
+            <div>08</div>
+            <div>09</div>
+            <div>10</div>
+            <div>11</div>
+            <div>12</div>
+            <div>13</div>
+            <div>14</div>
+            <div>15</div>
+            <div>16</div>
+            <div>17</div>
+            <div>18</div>
+            <div>19</div>
+            <div>20</div>
+            <div>21</div>
+            <div>22</div>
+            <div>23</div>
+            <div>24</div>
+            <div>25</div>
+        </div>
+        <div class="right-side">
+            <h2>Table Information</h2>
+            <div class="table-state-order">
+                <p>Table </p>
+                <p>Status </p>
+                <p>Order </p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
